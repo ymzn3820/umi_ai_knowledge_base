@@ -1,0 +1,249 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+		{
+			"path": "pages/index/index",
+			"style": {
+				// "navigationBarTitleText": "首页",
+				// "navigationBarBackgroundColor": "#E5EDF9",
+				// "navigationBarTextStyle": "black"
+				"navigationStyle": "custom",
+				"onReachBottomDistance": 50
+			}
+		},
+		
+		{
+			"path": "pages/login/login",
+			"style": {
+				// "navigationBarTitleText": "登录",
+				// "navigationBarBackgroundColor": "#fff",
+				// "navigationBarTextStyle": "black",
+				"navigationStyle": "custom"
+			}
+
+		},
+		
+		{
+			"path" : "pages/repository/agent",
+			"style" : 
+			{
+				// "navigationBarTitleText" : "AI智能体",
+				// "enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/repository/repository",
+			"style" : 
+			{
+				// "navigationBarTitleText" : "AI知识库",
+				// "enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/repository/add_agent",
+			"style" : 
+			{
+				// "navigationBarTitleText" : "创建AI智能体",
+				// "enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/repository/document",
+			"style" : 
+			{
+				// "navigationBarTitleText" : "文档库",
+				// "enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/repository/website",
+			"style" : 
+			{
+				// "navigationBarTitleText" : "网址库",
+				// "enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/repository/photo",
+			"style" : 
+			{
+				// "navigationBarTitleText" : "图片库",
+				// "enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/repository/editPhoto",
+			"style" : 
+			{
+				// "navigationBarTitleText" : "编辑图片",
+				// "enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/repository/group",
+			"style" : 
+			{
+				// "navigationBarTitleText" : "分组管理",
+				// "enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+
+		{
+			"path": "pages/user/user",
+			"style": {
+				// "navigationBarTitleText": "我的",
+				// "navigationBarBackgroundColor": "#1296db",
+				// "navigationBarTextStyle": "white"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/set/set",
+			"style": {
+				// "navigationBarTitleText": "设置",
+				// "navigationBarBackgroundColor": "#fff",
+				// "navigationBarTextStyle": "black"
+				"navigationStyle": "custom"
+			}
+		},
+
+		{
+			"path": "pages/agree/agree",
+			"style": {
+				// "navigationBarTitleText": "",
+				// "enablePullDownRefresh": false
+				"navigationStyle": "custom"
+			}
+
+		},
+		{
+			"path": "pages/user/info/info",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+
+		}
+	],
+	"subPackages": [
+		{
+			"root": "childCont",
+			"pages": [
+				{
+					"path": "company/add_info",
+					"style": {
+						"navigationBarTitleText": "企业AI定制",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+
+				},
+				{
+					"path": "company/company_list",
+					"style": {
+						"navigationBarTitleText": "个人/团队列表",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+
+				},
+				{
+					"path": "company/know_list",
+					"style": {
+						"navigationBarTitleText": "企业AI定制",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+
+				},
+				{
+					"path": "company/staff_form",
+					"style": {
+						"navigationBarTitleText": "新增企业AI数字员工",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+
+				},
+				{
+					"path": "company/user_chat",
+					"style": {
+						"navigationBarTitleText": "AI企业员工对话",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+
+				},
+				{
+					"path": "company/history_chat",
+					"style": {
+						"navigationBarTitleText": "历史记录",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+
+				},
+				{
+					"path" : "realName/realName",
+					"style" : 
+					{
+						// "navigationBarTitleText" : "实名认证",
+						// "enablePullDownRefresh" : false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path" : "realName/backMini",
+					"style" : 
+					{
+						// "navigationBarTitleText" : "返回小程序",
+						// "enablePullDownRefresh" : false,
+						"navigationStyle": "custom"
+					}
+				}
+			]
+		}
+	],
+
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "无忧秘书AI",
+		"navigationBarBackgroundColor": "#F6F8Fb",
+		"backgroundColor": "#F6F8Fb"
+	},
+	"tabBar": {
+		"color": "#131D34",
+		"selectedColor": "#1F64FF",
+		"backgroundColor": "#fff",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "企业定制",
+				"iconPath": "static/nav/duihua1.png",
+				"selectedIconPath": "static/nav/duihua.png"
+			},
+			{
+				"pagePath": "pages/repository/repository",
+				"text": "知识库",
+				"iconPath": "static/nav/yingyong1.png",
+				"selectedIconPath": "static/nav/yingyong.png"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"text": "我的",
+				"iconPath": "static/nav/user1.png",
+				"selectedIconPath": "static/nav/user.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
